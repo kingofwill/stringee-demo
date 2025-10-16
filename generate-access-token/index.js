@@ -37,6 +37,8 @@ app.get('/', (req, res) => {
     console.error('Error generating token:', error);
     res.status(500).json({ error: 'Internal server error' });
   }
-});app.listen(port, () => {
+});
+
+app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
