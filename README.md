@@ -5,8 +5,8 @@
 https://vt.tiktok.com/ZS2YvyLHJ/
 
 ## Cấu trúc thư mục
-- generate-access-token: Thư mục chứa mã nguồn backend API để tạo access token (JWT).
-- voice-call-demo: Thư mục chứa mã nguồn frontend.
+- generate-access-token: Thư mục chứa mã nguồn backend API (Node.js) để tạo access token (JWT).
+- voice-call-demo: Thư mục chứa mã nguồn frontend (React + Vite).
 
 ## Hướng dẫn cài đặt
 Xem file README tại từng thư mục.

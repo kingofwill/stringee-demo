@@ -2,7 +2,7 @@
 Thư mục chứa mã nguồn backend API để tạo access token (JWT).
 
 ## Cài đặt
-Chạy lệnh `composer install` để cài đặt các thư viện cần thiết.
+Chạy lệnh `npm install` để cài đặt các thư viện cần thiết.
 
 ## Cấu hình
 - Tạo tài khoản trên [Stringee](https://stringee.com/?utm_source=juno_okyo&utm_medium=github&utm_campaign=stringee-demo)
@@ -10,7 +10,9 @@ Chạy lệnh `composer install` để cài đặt các thư viện cần thiế
 - Copy `.env.example` sang `.env`
 - Copy API Key và API Secret và sửa trong file `.env`
 
+## Chạy
+Chạy lệnh `npm start` để khởi động server.
+
 ## Phần mềm tham khảo
-- [Composer](https://getcomposer.org/)
-- [XAAMP](https://www.apachefriends.org/index.html)
-- [Laragon](https://laragon.org/)
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
