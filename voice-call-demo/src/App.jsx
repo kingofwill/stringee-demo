@@ -49,7 +49,7 @@ function App() {
       settingCallEvent(incomingcall);
       setHasIncomingCall(true);
       setIsVideoCall(incomingcall.isVideoCall);
-      setFriendName(incomingcall.fromNumber);
+      setFriendUsername(incomingcall.fromNumber);
       setLoading(true);
     });
 
@@ -136,7 +136,7 @@ function App() {
 
     call.makeCall(function (res) {
       console.log('make call callback: ' + JSON.stringify(res));
-      setFriendName(res.toNumber);
+      setFriendUsername(res.toNumber);
     });
   };
 
@@ -250,7 +250,7 @@ function App() {
         {isCalling && (
           <div className="mt-3">
             <p>
-              Đang gọi cho: <strong>{friendName}</strong>
+              Đang gọi cho: <strong>{friendUsername}</strong>
             </p>
             <button className="btn btn-danger" onClick={hangupCall}>Kết thúc</button>
           </div>
